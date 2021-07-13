@@ -25,11 +25,11 @@
     const standingTableTitles = standingTable.createTHead().insertRow();
     // Inserting the standing table headings.
     // Inserindo os títulos da tabela de classificação.
-    standingTableTitles.insertCell(-1).innerText = 'Nome';
-    standingTableTitles.insertCell(-1).innerText = 'Pontos';
-    standingTableTitles.insertCell(-1).innerText = 'Vitórias';
-    standingTableTitles.insertCell(-1).innerText = 'Empates';
-    standingTableTitles.insertCell(-1).innerText = 'Derrotas';
+    standingTableTitles.insertCell(-1).innerText = 'Name';
+    standingTableTitles.insertCell(-1).innerText = 'Points';
+    standingTableTitles.insertCell(-1).innerText = 'Wins';
+    standingTableTitles.insertCell(-1).innerText = 'Draws';
+    standingTableTitles.insertCell(-1).innerText = 'Loses';
     // Variable that creates the body of the standing table.
     // Variável que cria o corpo da tabela de classificação.
     let standingTableBody = standingTable.createTBody(teams);
@@ -75,11 +75,11 @@
     const matchesTableTitles = matchesTable.createTHead().insertRow();
     // Inserting the matches table headings.
     // Inserindo os titulos da tabela de partidas.
-    matchesTableTitles.insertCell(-1).innerText = 'casa';
-    matchesTableTitles.insertCell(-1).innerText = 'vitória time da casa';
-    matchesTableTitles.insertCell(-1).innerText = 'empate';
-    matchesTableTitles.insertCell(-1).innerText = 'vitória time visitante';
-    matchesTableTitles.insertCell(-1).innerText = 'visitante';
+    matchesTableTitles.insertCell(-1).innerText = 'home';
+    matchesTableTitles.insertCell(-1).innerText = 'home team win';
+    matchesTableTitles.insertCell(-1).innerText = 'draw';
+    matchesTableTitles.insertCell(-1).innerText = 'visitor team win';
+    matchesTableTitles.insertCell(-1).innerText = 'visitor';
     // Array with the matches.
     // Array com as partidas.
     let matches = [
